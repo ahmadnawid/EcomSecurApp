@@ -1,4 +1,4 @@
-package com.app.EcomSecurApp;
+package com.app.EcomSecurApp.model;
 
 public class Student {
     private int id;

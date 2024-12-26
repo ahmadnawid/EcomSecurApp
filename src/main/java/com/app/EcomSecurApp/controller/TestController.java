@@ -1,4 +1,4 @@
-package com.app.EcomSecurApp;
+package com.app.EcomSecurApp.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;
