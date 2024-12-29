@@ -33,7 +33,7 @@ public class UserService {
                         (user.getUsername(), user.getPassword()));
 
         if(authentication.isAuthenticated())
-            return jwtService.generateToken();
+            return jwtService.generateToken(user.getUsername());
 
         return "fail";
     }
